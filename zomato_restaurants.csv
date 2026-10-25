@@ -1,0 +1,61 @@
+restaurant_id,restaurant_name,city,cuisine,cost_for_two,is_veg_only,avg_rating,onboarded_year
+1,Hyderabadi House 1,Bengaluru,South Indian,364,Yes,4.2,2023
+2,Chennai Express Hub 2,Pune,Mughlai,401,No,3.6,2023
+3,Zaika Hub 3,Kolkata,Continental,671,No,3.6,2019
+4,Bengal Dhaba 4,Hyderabad,Street Food,213,No,3.7,2023
+5,Hyderabadi Bistro 5,Delhi NCR,Mughlai,536,Yes,4.0,2022
+6,Chennai Express House 6,Ahmedabad,Healthy Food,414,No,3.6,2020
+7,Urban Bistro 7,Bengaluru,Italian,513,No,4.1,2022
+8,Bombay Treat 8,Mumbai,Bakery,266,No,4.0,2020
+9,Bombay Delights 9,Delhi NCR,Chinese,309,No,3.9,2022
+10,Bombay Hub 10,Pune,Italian,629,Yes,3.7,2019
+11,Zaika Delights 11,Bengaluru,Italian,682,No,3.8,2021
+12,Corner Corner 12,Mumbai,South Indian,157,Yes,3.7,2021
+13,Bengal Delights 13,Mumbai,Healthy Food,320,No,4.1,2022
+14,Corner Kitchen & Co. 14,Pune,South Indian,316,No,3.8,2020
+15,Spice Treat 15,Delhi NCR,Biryani,416,Yes,4.1,2021
+16,The Great Point 16,Hyderabad,Healthy Food,456,No,3.9,2022
+17,Biryani House Bistro 17,Delhi NCR,Bakery,123,No,3.6,2022
+18,Curry Junction 18,Ahmedabad,Italian,789,No,4.2,2020
+19,Urban Dhaba 19,Chennai,North Indian,482,No,3.3,2021
+20,The Great Kitchen 20,Kolkata,Desserts,251,No,3.7,2022
+21,Corner Express 21,Hyderabad,South Indian,171,Yes,4.0,2021
+22,Biryani House Express 22,Delhi NCR,Chinese,281,Yes,3.5,2023
+23,Corner Corner 23,Mumbai,Healthy Food,506,No,3.8,2021
+24,Hyderabadi Junction 24,Delhi NCR,Italian,643,No,4.9,2021
+25,Sultan's Kitchen & Co. 25,Mumbai,Desserts,166,No,3.8,2019
+26,Bengal Hub 26,Chennai,Biryani,242,Yes,3.5,2022
+27,Wok Adda 27,Hyderabad,South Indian,331,Yes,3.9,2023
+28,Curry Dhaba 28,Delhi NCR,Healthy Food,494,No,4.6,2022
+29,Wok Express 29,Chennai,Healthy Food,401,Yes,3.8,2023
+30,The Great Junction 30,Delhi NCR,Chinese,380,No,3.5,2022
+31,Cafe Restaurant 31,Chennai,Street Food,177,No,4.4,2022
+32,Punjabi Adda 32,Delhi NCR,Biryani,424,No,4.0,2020
+33,Urban Bites 33,Kolkata,North Indian,361,No,3.8,2023
+34,Tandoori Kitchen & Co. 34,Mumbai,North Indian,610,No,3.8,2019
+35,Spice Junction 35,Mumbai,Healthy Food,346,Yes,4.1,2021
+36,Bombay House 36,Bengaluru,Healthy Food,369,No,3.8,2022
+37,Urban Corner 37,Delhi NCR,Continental,913,No,3.7,2021
+38,Zaika Hub 38,Chennai,Desserts,157,Yes,3.7,2021
+39,Golden Adda 39,Delhi NCR,South Indian,185,No,4.0,2021
+40,Truffle House 40,Pune,Chinese,390,Yes,3.7,2019
+41,Bengal Point 41,Pune,Fast Food,196,No,3.8,2023
+42,Golden Restaurant 42,Bengaluru,Continental,637,No,4.3,2023
+43,Southern Junction 43,Mumbai,Fast Food,197,No,3.5,2019
+44,Royal Bistro 44,Hyderabad,Street Food,121,No,4.5,2019
+45,Truffle Dhaba 45,Delhi NCR,Street Food,142,Yes,3.9,2019
+46,Royal Delights 46,Delhi NCR,Mughlai,371,No,4.1,2021
+47,Wok Adda 47,Bengaluru,Continental,887,Yes,3.6,2020
+48,Curry Express 48,Mumbai,Street Food,185,Yes,4.0,2021
+49,Green Leaf Restaurant 49,Delhi NCR,Healthy Food,591,No,4.0,2019
+50,Bengal Cafe 50,Chennai,Street Food,246,No,3.7,2022
+51,Hyderabadi Delights 51,Delhi NCR,Bakery,207,No,4.0,2021
+52,Punjabi Cafe 52,Hyderabad,Continental,583,No,3.8,2021
+53,Curry Hub 53,Mumbai,Bakery,173,No,3.8,2022
+54,Wok Express 54,Chennai,Chinese,524,No,4.5,2021
+55,Bengal Cafe 55,Hyderabad,Healthy Food,581,No,3.8,2020
+56,Chennai Express Corner 56,Delhi NCR,Chinese,458,No,3.8,2019
+57,Bombay Hub 57,Delhi NCR,Bakery,287,No,3.9,2022
+58,Golden Kitchen & Co. 58,Pune,Biryani,438,Yes,3.5,2021
+59,Urban Dhaba 59,Hyderabad,North Indian,368,No,4.3,2021
+60,Green Leaf Bites 60,Pune,Mughlai,669,No,4.5,2023

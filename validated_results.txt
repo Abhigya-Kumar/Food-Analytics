@@ -1,0 +1,206 @@
+=== A1 KPI Overview ===
+ total_orders  delivered_orders  cancelled_orders  total_revenue  avg_order_value  cancellation_rate_pct
+         9000              8086               914     4557230.28            563.6                  10.16
+
+=== B1/B2/B3 Monthly trend+growth+cumulative ===
+     om   revenue  orders  mom_growth  cumulative
+2023-01   1630.18       5         NaN     1630.18
+2023-02  11690.56      17      617.13    13320.74
+2023-03  17102.40      31       46.29    30423.14
+2023-04  15484.16      31       -9.46    45907.30
+2023-05  38899.49      67      151.22    84806.79
+2023-06  44086.92      70       13.34   128893.71
+2023-07  54237.88      89       23.02   183131.59
+2023-08  54857.33      95        1.14   237988.92
+2023-09  59161.63     109        7.85   297150.55
+2023-10  73136.70     137       23.62   370287.25
+2023-11  89555.64     155       22.45   459842.89
+2023-12 103794.03     187       15.90   563636.92
+2024-01 145055.34     264       39.75   708692.26
+2024-02 145092.97     260        0.03   853785.23
+2024-03 153725.58     299        5.95  1007510.81
+2024-04 187628.53     340       22.05  1195139.34
+2024-05 198648.41     355        5.87  1393787.75
+2024-06 271145.05     471       36.49  1664932.80
+2024-07 285648.90     495        5.35  1950581.70
+2024-08 358472.65     629       25.49  2309054.35
+2024-09 376453.95     678        5.02  2685508.30
+2024-10 452436.37     826       20.18  3137944.67
+2024-11 606219.50    1066       33.99  3744164.17
+2024-12 813066.11    1410       34.12  4557230.28
+
+=== B4 Day of week ===
+      dow  orders    revenue    aov
+ Saturday    2027 1130349.86 557.65
+   Sunday    1244  687499.72 552.65
+Wednesday    1016  571431.93 562.43
+   Friday    1014  569948.72 562.08
+   Monday     921  540173.71 586.51
+ Thursday     950  538904.99 567.27
+  Tuesday     914  518921.35 567.75
+
+=== B5 Hourly ===
+ hr  orders   revenue
+  6     120  73149.05
+  7     122  63379.83
+  8     117  69537.27
+  9     103  60207.06
+ 10     120  64810.94
+ 11     117  71276.46
+ 12     914 519060.59
+ 13     933 525454.57
+ 14     906 506041.42
+ 15     119  65150.52
+ 16     102  56533.80
+ 17     110  56370.62
+ 18     116  70600.04
+ 19     996 568980.30
+ 20    1047 575181.84
+ 21    1088 620113.68
+ 22    1056 591382.29
+
+=== C1 City revenue ===
+     city  orders    revenue    aov
+Bengaluru    1370 1035480.74 755.83
+Delhi NCR    1698  987105.86 581.33
+   Mumbai    1465  575653.99 392.94
+Hyderabad    1109  506301.43 456.54
+     Pune     793  479910.34 605.18
+  Kolkata     705  396911.40 562.99
+Ahmedabad     347  304650.91 877.96
+  Chennai     599  271215.61 452.78
+
+=== C2 Cuisine performance ===
+     cuisine  orders   revenue    aov  avg_rating
+     Italian    1011 882721.08 873.12        4.11
+Healthy Food    1431 848231.35 592.75        3.95
+ Continental     857 809259.24 944.29        3.83
+North Indian     614 347367.83 565.75        3.88
+     Mughlai     481 339707.29 706.25        4.07
+South Indian     840 316849.13 377.20        3.94
+     Chinese     550 309608.12 562.92        3.91
+ Street Food     762 178976.06 234.88        4.12
+     Biryani     327 167429.81 512.02        3.75
+      Bakery     537 162904.64 303.36        3.83
+    Desserts     444 128705.04 289.88        3.62
+   Fast Food     232  65470.69 282.20        3.62
+
+=== C3 City delivery/cancellation ===
+     city  avg_delivery  cxl_rate
+Delhi NCR          37.4     11.38
+   Mumbai          39.6     10.89
+Ahmedabad          32.3     10.80
+Bengaluru          38.6     10.22
+  Chennai          35.7      9.92
+Hyderabad          34.2      9.10
+     Pune          33.6      8.85
+  Kolkata          36.5      8.44
+
+=== D1 Top10 restaurants revenue ===
+       restaurant_name      city      cuisine  orders   revenue
+  Golden Restaurant 42 Bengaluru  Continental     307 270511.01
+     Curry Junction 18 Ahmedabad      Italian     221 233347.82
+Hyderabadi Junction 24 Delhi NCR      Italian     244 221248.96
+           Wok Adda 47 Bengaluru  Continental     177 205800.66
+           Zaika Hub 3   Kolkata  Continental     217 189452.59
+        Urban Bistro 7 Bengaluru      Italian     253 172401.78
+     Zaika Delights 11 Bengaluru      Italian     188 168578.28
+   Green Leaf Bites 60      Pune      Mughlai     188 167025.26
+    Hyderabadi House 1 Bengaluru South Indian     254 124456.92
+        Urban Bites 33   Kolkata North Indian     236 121004.77
+
+=== D2 Top rated (>=30 orders) ===
+       restaurant_name      city  orders  avg_rating
+Hyderabadi Junction 24 Delhi NCR     195        4.70
+        Curry Dhaba 28 Delhi NCR     146        4.52
+       Royal Bistro 44 Hyderabad     177        4.41
+   Green Leaf Bites 60      Pune     151        4.38
+    Cafe Restaurant 31   Chennai     115        4.38
+        Wok Express 54   Chennai     134        4.37
+  Golden Restaurant 42 Bengaluru     255        4.23
+        Urban Dhaba 59 Hyderabad     173        4.19
+     Spice Junction 35    Mumbai     147        4.14
+    Hyderabadi House 1 Bengaluru     208        4.12
+
+=== D3 Top3 per city by revenue ===
+     city           restaurant_name   revenue  city_rank
+Ahmedabad         Curry Junction 18 233347.82          1
+Ahmedabad   Chennai Express House 6  71303.09          2
+Bengaluru      Golden Restaurant 42 270511.01          1
+Bengaluru               Wok Adda 47 205800.66          2
+Bengaluru            Urban Bistro 7 172401.78          3
+  Chennai            Wok Express 54 119693.65          1
+  Chennai            Wok Express 29  39144.51          2
+  Chennai        Cafe Restaurant 31  33108.50          3
+Delhi NCR    Hyderabadi Junction 24 221248.96          1
+Delhi NCR            Curry Dhaba 28 112919.12          2
+Delhi NCR  Green Leaf Restaurant 49  94826.55          3
+Hyderabad            Urban Dhaba 59 104225.97          1
+Hyderabad            Bengal Cafe 55  91660.08          2
+Hyderabad        The Great Point 16  82447.19          3
+  Kolkata               Zaika Hub 3 189452.59          1
+  Kolkata            Urban Bites 33 121004.77          2
+  Kolkata      The Great Kitchen 20  86454.04          3
+   Mumbai Tandoori Kitchen & Co. 34  93385.32          1
+   Mumbai         Spice Junction 35  92139.24          2
+   Mumbai          Corner Corner 23  91617.38          3
+     Pune       Green Leaf Bites 60 167025.26          1
+     Pune             Bombay Hub 10  87144.24          2
+     Pune          Truffle House 40  54403.39          3
+
+=== D4 Highest cancellation restaurants ===
+         restaurant_name      city  total_orders  cancelled  cxl_rate
+        Truffle Dhaba 45 Delhi NCR            97         18     18.56
+Biryani House Express 22 Delhi NCR            66         12     18.18
+         Punjabi Adda 32 Delhi NCR           107         19     17.76
+          Bombay Treat 8    Mumbai           180         30     16.67
+          Urban Dhaba 19   Chennai            54          8     14.81
+       Royal Delights 46 Delhi NCR           109         15     13.76
+         Bombay House 36 Bengaluru           221         30     13.57
+            Curry Hub 53    Mumbai           155         21     13.55
+   The Great Junction 30 Delhi NCR            67          9     13.43
+          Curry Dhaba 28 Delhi NCR           205         26     12.68
+
+=== E1 Top10 customers CLV ===
+ customer_id customer_name      city  total_orders      ltv
+        1349   Vihaan Iyer Delhi NCR            28 18584.12
+        1035   Pooja Mehta Ahmedabad            11 13140.32
+        1957  Vivaan Verma Bengaluru            17 11830.58
+        1009   Rohan Gupta Bengaluru            14 11183.28
+         515 Vihaan Pillai Delhi NCR            11 11140.48
+        1196  Aryan Pillai Ahmedabad            11 10461.45
+        1216     Isha Iyer Ahmedabad            11 10324.75
+          25   Aadhya Bose Bengaluru            12 10142.83
+         328   Kiara Singh Bengaluru            11  9922.92
+        2129    Neha Singh Bengaluru            14  9844.90
+
+=== E2 Repeat vs one-time ===
+    customer_type  num_customers  total_orders  total_revenue  pct_revenue
+One-time customer            452           452      262928.40         5.77
+  Repeat customer           1693          7634     4294301.88        94.23
+
+=== E3 Premium vs non-premium ===
+is_premium_member  customers  orders    aov  orders_per_cust
+               No       1738    6565 561.92             3.78
+              Yes        407    1521 570.81             3.74
+
+=== E4 RFM segment summary ===
+      rfm_segment  num_customers    revenue  pct_customers
+         Champion            407 1701423.55           19.0
+   Loyal Customer            503 1250536.23           23.4
+  Needs Attention            770 1086399.30           35.9
+At Risk / Churned            465  518871.20           21.7
+
+=== F1 Payment methods ===
+   payment_method  orders    revenue  pct_orders
+              UPI    3686 2081815.49       45.58
+Credit/Debit Card    1767  995764.51       21.85
+ Cash on Delivery    1214  692698.44       15.01
+           Wallet     788  427804.35        9.75
+      Net Banking     631  359147.49        7.80
+
+=== F2 Discount impact ===
+           otype  orders  avg_pre  avg_final
+Discounted Order    3273   546.20     504.52
+Full-Price Order    4813   556.21     603.77
+
